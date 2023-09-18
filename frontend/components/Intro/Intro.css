@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between; /* Use space-between to push the left and right divs to the edges */
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%; /* Adjust width as needed; leave some space for margins */
+  height: 100%;
+  background-color: #f5f3f2;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%; /* Adjust width as needed; leave some space for margins */
+  height: 100%;
+  background-color: #ffede6;
+}
